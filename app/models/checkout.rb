@@ -4,5 +4,5 @@ class Checkout < ActiveRecord::Base
 
   validates :book_id, presence: true
   validates :due_date, presence: true
-  validates :borrower, presence: true
+  validates :reader_id, presence: true
 end
