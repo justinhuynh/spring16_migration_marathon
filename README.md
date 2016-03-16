@@ -12,6 +12,7 @@ bundle
 Rename `config/database.example.yml` to `config/database.yml`
 
 ```no-highlight
+rake db:drop (if you have an existing database of the same name)
 rake db:create
 rake db:migrate
 rake db:seed

@@ -3,9 +3,9 @@ er = Book.create(title: "Eloquent Ruby", author: "Russ Olsen", rating: 100)
 ejs = Book.create(title: "Eloquent JavaScript", author: "Marijn Haverbeke", rating: 100)
 jh = Book.create(title: "The Autobiography of Justin Huynh", author: "Justin Huynh", rating: 100)
 
-mmckv = Reader.create(full_name: "Matt McKelvey", email: "matt@mckelvey.com", phone_number: "1234567890")
-patricia = Reader.create(full_name: "Patricia Chun", email: "patricia@chun.com", phone_number: "2345678901")
-mg = Reader.create(full_name: "Mia Gaulin", email: "mia@gaulin.com", phone_number: "3456789012")
+mmckv = Reader.create(first_name: "Matt", last_name: "McKelvey", email: "matt@mckelvey.com", phone_number: "1234567890")
+patricia = Reader.create(first_name: "Patricia", last_name: "Chun", email: "patricia@chun.com", phone_number: "2345678901")
+mg = Reader.create(first_name: "Mia", last_name: "Gaulin", email: "mia@gaulin.com", phone_number: "3456789012")
 
 sf = Category.create(name: "Science Fiction")
 hf = Category.create(name: "Historical Fiction")
